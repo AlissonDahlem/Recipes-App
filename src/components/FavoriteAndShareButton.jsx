@@ -34,8 +34,6 @@ function FavoriteAndShareButton(props) {
     }
     isFavoriteRecipe();
   }, [data.idMeal, data.idDrink, foodOrDrink, favorite]);
-
-  console.log(favorite);
   return (
     foodOrDrink === 'food' ? (
       <div className="social_menu detail_page">

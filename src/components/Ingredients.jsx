@@ -12,8 +12,6 @@ function Ingredients(props) {
     ? `https://www.thecocktaildb.com/images/ingredients/${name}-Small.png`
     : `https://www.themealdb.com/images/ingredients/${name}-Small.png`;
   const location = useLocation();
-  /*     console.log(location);
-  console.log(foodOrDrink); */
 
   const redirectToDetails = async (ingredient) => {
     const { history } = props;

@@ -16,7 +16,6 @@ export default function FoodDetails() {
     apiRequest();
   }, [path]);
 
-  console.log(foodDetailsData);
   return (
     foodDetailsData === undefined ? '' : (
       <>

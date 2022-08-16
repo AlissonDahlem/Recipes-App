@@ -27,7 +27,6 @@ function FoodsProvider({ children }) {
   const handleChange = (e) => {
     // const { value } = target;
     setFilter({ option: e.target.value });
-    console.log(filter);
   };
 
   const filterByNationality = async () => {

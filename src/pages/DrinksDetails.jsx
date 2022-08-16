@@ -16,7 +16,6 @@ export default function DrinksDetails() {
     apiRequest();
   }, [path]);
 
-  console.log(drinkDetailsData);
   return (
     drinkDetailsData === undefined ? '' : (
       <>

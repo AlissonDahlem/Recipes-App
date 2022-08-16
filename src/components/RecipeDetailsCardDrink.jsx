@@ -35,7 +35,6 @@ function RecipeDetailsCardDrink(props) {
       const receitas = JSON.parse(localStorage.getItem('inProgressRecipes'));
       const keys = receitas ? Object.keys(receitas.cocktails) : '';
       const result = keys ? keys.find((key) => key === data.idDrink) : false;
-      console.log(result);
       return result ? setInProgress(true) : setInProgress(false);
     }
     isInProgress();

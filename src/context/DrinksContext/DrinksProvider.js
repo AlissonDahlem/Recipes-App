@@ -17,14 +17,10 @@ function DrinksProvider({ children }) {
   }
 
   const fetchByDrinkIngredient = async (ingredient) => {
-    /*     const twelve = 12; */
     const request = await
     fetch(`https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=${ingredient}`);
     const data = await request.json();
-    /*     const arrWithTwelve = data.meals.slice(0, twelve); */
-    console.log(data);
     setDrinksResults(data);
-    console.log(drinksResults);
   };
 
   useEffect(() => {
