@@ -19,6 +19,17 @@ Esse aplicativo foi pensado somente para tela mobile. *Sem compatibilidade para 
 @raphaelfiorda <br>
 @severidade <br>
 
+# APIs
+### TheMealDB API
+O TheMealDB é um banco de dados aberto, mantido pela comunidade, com receitas e ingredientes de todo o mundo.
+
+Você consegue acessar a documentação <a href="https://www.themealdb.com/api.php">aqui</a>
+
+### The CockTailDB API
+Bem similar (inclusive mantida pela mesma entidade) a TheMealDB API, só que focado em bebidas.
+
+Você consegue acessar a documentação <a href="https://www.thecocktaildb.com/api.php">aqui</a>
+
 # Como rodar o Projeto
 
 Esse é um projeto muito simples, para rodar ele basta executar os seguintes comandos no terminal:
